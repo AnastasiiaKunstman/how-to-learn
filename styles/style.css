@@ -16,7 +16,7 @@
   background-color: #f2f2f2;
   position: relative;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -189,6 +189,7 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight:600;
+  margin: 0;
 } 
 
 .table__text {
@@ -196,6 +197,7 @@
   line-height: 1.2;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -278,7 +280,7 @@
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px auto;
+  margin: 0 auto 90px;
   z-index: 3;
 }
 
@@ -325,6 +327,9 @@
 }
 
 .footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
   color: white;
   margin: 18px 0;
   display: flex;
@@ -352,6 +357,7 @@
   text-decoration: none;
   list-style-type: none;
   padding: 0;
+  margin: 20px 0 16px;
 }
 
 .footer__column_content_social {
@@ -373,5 +379,6 @@
   text-decoration: none;
   list-style-type: none;
   padding: 0;
+  margin: 20px 0 16px;
 }
 
