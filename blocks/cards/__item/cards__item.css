@@ -1,11 +1,15 @@
 .cards__item {
-    width: 240px;
-    margin-top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    text-align: center;
+  width: 240px;
+  margin-top: 60px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
   }
   
+
+.cards__item:nth-child(3n) {
+    margin-right: 0;
+}
