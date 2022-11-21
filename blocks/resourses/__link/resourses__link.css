@@ -1,0 +1,11 @@
+.resourses__link {
+    margin: 0;
+    height: 38px;
+    width: 270px;
+    transition: linear 0.2s;
+  }
+
+.resourses__link.resourses__link:hover {
+  opacity: 0.3;
+}
+  

@@ -1,0 +1,7 @@
+.footer__column-links {
+    padding: 0;
+    margin: 20px 0 16px;
+    list-style-type: none;
+    transition: transform 0.4s ease-out;
+  }
+  
